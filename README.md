@@ -1,6 +1,6 @@
 # Darla - Productivity Chrome Extension
 
-![Darla Logo](link_to_your_logo.png)
+![Darla Logo](logo.png)
 
 ## Overview
 
