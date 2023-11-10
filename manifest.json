@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Darla",
+  "version": "1.0",
+  "description": "A personal productivity extension",
+  "permissions": [
+    "notifications",
+    "tabs",
+    "declarativeNetRequestWithHostAccess",
+    "declarativeNetRequest",
+    "storage",
+    "activeTab"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "rules1",
+        "path": "rules/rules.json",
+        "enabled": true
+      }
+    ]
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
